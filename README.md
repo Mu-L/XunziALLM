@@ -17,9 +17,9 @@
 |Xunzi-Qwen-7B-CHAT（对话模型）  | [链接](https://modelscope.cn/models/Xunzillm4cc/Xunzi-Qwen-Chat) |Qwen-7B对话模型|
 |Xunzi-GLM-6B（基座模型）  | [链接](https://modelscope.cn/models/Xunzillm4cc/Xunzi-GLM) |ChatGLM3-6B基座模型|
 |Xunzi-Baichuan-7B（基座模型）  | [链接](https://modelscope.cn/models/Xunzillm4cc/Xunzi-Baichuan) |Baichuan2-7B基座模型|
-|Xunzi-Qwen1.5-7B（对话模型）  | [链接](https://www.modelscope.cn/models/Xunzillm4cc/Xunzi-Qwen1.5-7B) |Xunzi-Qwen1.5-7B对话模型|
-|Xunzi-Qwen1.5-4B（对话模型）  | [链接](https://www.modelscope.cn/models/Xunzillm4cc/Xunzi-Qwen1.5-4B) |Xunzi-Qwen1.5-4B对话模型|
-|Xunzi-Qwen1.5-14B（对话模型）  | [链接](https://www.modelscope.cn/models/Xunzillm4cc/Xunzi-Qwen1.5-14B) |Xunzi-Qwen1.5-14B对话模型|
+|Xunzi-Qwen1.5-7B（基座模型）  | [链接](https://www.modelscope.cn/models/Xunzillm4cc/Xunzi-Qwen1.5-7B) |Xunzi-Qwen1.5-7B基座模型|
+|Xunzi-Qwen1.5-4B（基座模型）  | [链接](https://www.modelscope.cn/models/Xunzillm4cc/Xunzi-Qwen1.5-4B) |Xunzi-Qwen1.5-4B基座模型|
+|Xunzi-Qwen1.5-14B（基座模型）  | [链接](https://www.modelscope.cn/models/Xunzillm4cc/Xunzi-Qwen1.5-14B) |Xunzi-Qwen1.5-14B基座模型|
 
 Xunzi-Qwen-7B与Xunzi-Qwen-7B-CHAT调用方式与Qwen模型相同。
 
@@ -28,7 +28,7 @@ Xunzi-GLM-6B调用方式与ChatGLM3-6B模型相同。
 Xunzi-Baichuan-7B调用方式与Baichuan2-7B模型相同。
 
 ## 新闻 
-- 2024/1/16 更新github项目开源模型列表。
+- 2024/5/6 更新github项目开源模型列表。
 
 ## 荀子系列模型亮点：
 
