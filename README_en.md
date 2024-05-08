@@ -25,6 +25,10 @@ The Xunzi series model open source includes two parts: the base model [**XunziAL
  
  Xunzi-Baichuan-7B is called in the same way as Baichuan2-7B model.
 
+ Xunzi-Qwen1.5-4B is called in the same way as Xunzi-Qwen1.5-14B.
+ 
+ Xunzi-Baichuan-7B and Xunzi-Qwen1.5-7B_chat are called in the same way as Qwen model.
+
 ## Highlights of Xunzi Series models:
 
 * Intelligent indexing of ancient books, the Xunzi model has powerful ancient book document indexing capabilities and can perform high-quality subject indexing of the content in ancient books, helping researchers quickly understand the topic of the article.
