@@ -29,8 +29,9 @@ The Xunzi series model open source includes two parts: the base model [**XunziAL
 
 ## News
 
--2024/5/20, the Xunzi-Qwen1.5-7B chat model’s dialogue API was launched. Users can now directly invoke the model for dialogue services through the openai library.
--2024/5/6, the GitHub project’s list of open-source models was updated.
+- 2024/5/20, the Xunzi-Qwen1.5-7B chat model’s dialogue API was launched. Users can now directly invoke the model for dialogue services through the openai library.
+
+- 2024/5/6, the GitHub project’s list of open-source models was updated.
  
 
 ## Highlights of Xunzi Series models:
