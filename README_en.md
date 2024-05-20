@@ -27,6 +27,12 @@ The Xunzi series model open source includes two parts: the base model [**XunziAL
 
  Xunzi-Qwen1.5-4B，Xunzi-Qwen1.5-14B，Xunzi-Qwen1.5-7B and Xunzi-Qwen1.5-7B_chat are called in the same way as Qwen1.5 model.
 
+## News
+
+-2024/5/20, the Xunzi-Qwen1.5-7B chat model’s dialogue API was launched. Users can now directly invoke the model for dialogue services through the openai library.
+-2024/5/6, the GitHub project’s list of open-source models was updated.
+ 
+
 ## Highlights of Xunzi Series models:
 
 * Intelligent indexing of ancient books, the Xunzi model has powerful ancient book document indexing capabilities and can perform high-quality subject indexing of the content in ancient books, helping researchers quickly understand the topic of the article.
