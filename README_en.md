@@ -4,7 +4,7 @@
 
 # XunziALLM
 
-The Xunzi series model open source includes two parts: the base model [**XunziALLM**](https://modelscope.cn/models/Xunzillm4cc/Xunzi-Qwen), as a key focus of this open source model, this project has launched a fully open model for the field of ancient books. At the same time, to facilitate non artificial intelligence professionals to better understand this open source model, we have used some data to construct a dialogue model [**XunziChat**](https://modelscope.cn/models/Xunzillm4cc/Xunzi-Qwen-Chat).Users can call our ancient books processing model using the same method as calling the corresponding open source models such as Qwen, Baichuan2, ChatGLM3, etc.
+The Xunzi series model open source includes two parts: the base model [**XunziALLM**](https://modelscope.cn/models/Xunzillm4cc/Xunzi-Qwen), as a key focus of this open source model, this project has launched a fully open model for the field of ancient books. At the same time, to facilitate non artificial intelligence professionals to better understand this open source model, we have used some data to construct a dialogue model [**XunziChat**](https://modelscope.cn/models/Xunzillm4cc/Xunzi-Qwen-Chat).Users can call our ancient books processing model using the same method as calling the corresponding open source models such as Qwen, Baichuan2, ChatGLM3, Qwen1.5,etc.
 
  Currently released ancient books processing models:
  
@@ -29,7 +29,7 @@ The Xunzi series model open source includes two parts: the base model [**XunziAL
 
 ## News
 
-- 2024/5/20, the Xunzi-Qwen1.5-7B chat model’s dialogue API was launched. Users can now directly invoke the model for dialogue services through the openai library.
+- 2024/5/20, the Xunzi-Qwen1.5-7B_chat model’s dialogue API is now freely available. Users can directly invoke the Xunzi-Qwen1.5-7B_chat model for dialogue services through the openai library. The new version of the dialogue model has enhanced a series of functions including information extraction, text translation, and multi-turn dialogue.
 
 - 2024/5/6, the GitHub project’s list of open-source models was updated.
  
@@ -59,6 +59,31 @@ The Xunzi series model open source includes two parts: the base model [**XunziAL
 ![punctuation](./examples/punctuation.png)
 
 Since we also released the base model, users can also use personal training corpus to fine-tune the Xunzi base model according to their own needs, so that it can achieve better processing performance in downstream processing tasks of ancient books.
+
+## API Invocation
+
+Use the third-party Python library openai to call Xunzi-Qwen1.5-7B_chat for dialogue implementation freely.
+
+```python
+from openai import OpenAI
+from tqdm import tqdm
+openai_api_key = "ANY THING"
+openai_api_base = "http://xunziallm.njau.edu.cn:21180/v1"
+client = OpenAI(
+    api_key=openai_api_key,
+    base_url=openai_api_base,
+)
+
+for i in tqdm(range(0,1)):
+    chat_response = client.chat.completions.create(
+        model="/home/gpu0/Xunzi-Qwen1.5-7B_chat",
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": '根据提供的文本，按照关系scheme组合(人物, PO/官職, 官職),(人物, PP/態度傾向/消極, 人物),(人物, PL/其他, 地点),(人物, PL/居, 地点),(人物代词, 態度傾向/消極, 人物)抽取出符合描述的关系三元组\n奏上，上令公卿列侯宗室集議，莫敢難，獨竇嬰爭之，由此與錯有卻。'},
+        ]
+    )
+    print(chat_response.choices[0].message.content)
+```
 
 ## Statement:
 
