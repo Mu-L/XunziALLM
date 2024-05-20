@@ -31,7 +31,7 @@ Xunzi-Baichuan-7B调用方式与Baichuan2-7B模型相同。
 Xunzi-Qwen1.5-7B，Xunzi-Qwen1.5-14B，Xunzi-Qwen1.5-4B与Xunzi-Qwen1.5-7B_chat调用方式与Qwen1.5模型相同。
 
 ## 新闻 
-- 2024/5/20 Xunzi-Qwen1.5-7B_chat模型对话API开放。用户可通过openai库直接调用模型实现对话服务。
+- 2024/5/20 Xunzi-Qwen1.5-7B_chat模型对话API免费开放。用户可通过openai库直接调用Xunzi-Qwen1.5-7B_chat模型实现对话服务。新版本对话模型加强了信息抽取、文本翻译、多轮对话等一系列功能。
 - 2024/5/6 更新github项目开源模型列表。
 
 ## 荀子系列模型亮点：
