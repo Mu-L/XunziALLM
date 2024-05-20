@@ -61,10 +61,11 @@ Xunzi-Qwen1.5-7B，Xunzi-Qwen1.5-14B，Xunzi-Qwen1.5-4B与Xunzi-Qwen1.5-7B_chat�
 由于我们同时发布了基座模型，用户也可以根据自己的需求，使用本地的训练语料微调荀子基座模型，使得其能够在古籍下游处理任务上取得更佳的处理性能。
 
 ## API调用
+
+使用第三方python库openai，调用Xunzi-Qwen1.5-7B_chat实现对话。
+
 ```python
 from openai import OpenAI
-import json
-import random
 from tqdm import tqdm
 openai_api_key = "ANY THING"
 openai_api_base = "http://xunziallm.njau.edu.cn:21180/v1"
