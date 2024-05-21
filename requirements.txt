@@ -1,4 +1,4 @@
-transformers==4.32.0
+transformers
 accelerate
 tiktoken
 einops
@@ -14,3 +14,4 @@ fastapi>=0.104.1
 uvicorn~=0.24.0
 loguru~=0.7.2
 modelscope==1.9.5
+openai
