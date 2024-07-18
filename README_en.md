@@ -17,7 +17,9 @@ The Xunzi series model open source includes two parts: the base model [**XunziAL
  |Xunzi-Qwen1.5-4B (base model) | [link](https://modelscope.cn/models/Xunzillm4cc/Xunzi-Qwen1.5-4B) | Xunzi-Qwen1.5-4B base model |
  |Xunzi-Qwen1.5-7B (base model) | [link](https://modelscope.cn/models/Xunzillm4cc/Xunzi-Qwen1.5-7B) | Xunzi-Qwen1.5-7B base model |
  |Xunzi-Qwen1.5-14B (base model) | [link](https://modelscope.cn/models/Xunzillm4cc/Xunzi-Qwen1.5-14B) | Xunzi-Qwen1.5-14B base model |
- |Xunzi-Qwen1.5-7B_chat (base model) | [link](https://modelscope.cn/models/Xunzillm4cc/Xunzi-Qwen1.5-7B_chat) | Xunzi-Qwen1.5-7B_chat base model |
+ |Xunzi-Qwen1.5-7B_chat (chat model) | [link](https://modelscope.cn/models/Xunzillm4cc/Xunzi-Qwen1.5-7B_chat) | Xunzi-Qwen1.5-7B_chat chat model |
+ |Xunzi-Qwen2-7B (base model) | [link](https://modelscope.cn/models/Xunzillm4cc/Xunzi-Qwen2-7B) | Xunzi-Qwen2-7B base model |
+ |Xunzi-Qwen2-1.5B (base model) | [link](https://modelscope.cn/models/Xunzillm4cc/Xunzi-Qwen2-1.5B) | Xunzi-Qwen2-1.5B base model |
  
  Xunzi-Qwen-7B and Xunzi-Qwen-7B-CHAT are called in the same way as Qwen model.
  
@@ -26,6 +28,8 @@ The Xunzi series model open source includes two parts: the base model [**XunziAL
  Xunzi-Baichuan-7B is called in the same way as Baichuan2-7B model.
 
  Xunzi-Qwen1.5-4B，Xunzi-Qwen1.5-14B，Xunzi-Qwen1.5-7B and Xunzi-Qwen1.5-7B_chat are called in the same way as Qwen1.5 model.
+
+ Xunzi-Qwen2-7B and Xunzi-Qwen2-1.5B are called in the same way as Qwen2 model.
 
 ## News
 
